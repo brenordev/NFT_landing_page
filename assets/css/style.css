@@ -165,8 +165,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
     background-color: #30384D;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
