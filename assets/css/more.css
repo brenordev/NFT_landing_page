@@ -201,6 +201,7 @@ section{
     font-size: 24px;
 }
 .info_community{
+    text-align: center;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -220,4 +221,141 @@ section{
 .btnCommunity:hover{
     box-shadow: 0px 4px 4px 0px #00000040;
     transform: translateY(-5px);
+}
+.container_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 25px;
+    padding: 4rem 0 2rem 0;
+}
+.footer_leff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.logo{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+}
+.description_footer_left{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.social_midia_footer{
+    display: flex;
+    gap: 20px;
+}
+.link_social_midia{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #7D7AD8;
+}
+.copy_left span{
+    color: #545C71;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.columns_footer{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.column_right_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title_column{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.link_column_footer{
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    text-decoration: none;
+}
+.copy_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+    text-decoration: none;
+}
+.link_copy_right{
+    text-decoration: none;
+    color: #545C71;
+    font-weight: 500;
+    font-size: 14px;
+}
+@media screen and (max-width: 945px) {
+    .create_nfts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tools_for_create_nft{
+        max-width:550px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .container_footer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer_right{
+        width: 100%;
+    }
+    .column_right_footer{
+        width: 100%;
+    }
+    .copy_right{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 15px;
+   }
+   .creators{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+}   
+@media screen and (max-width: 635px){
+    .top_creators{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5%;
+    }
+}
+@media screen and (max-width: 425px){
+    .footer_right{
+        display: none;
+    }
 }
