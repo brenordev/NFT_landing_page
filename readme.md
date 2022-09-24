@@ -3,7 +3,7 @@
 
 Criado com base no design do Figma Community para aplicação de conhecimentos em HTML e CSS
 e ter um outro projeto prático para compartilhar em repositório, página com visualização 
-disponível em telas menos com responsividade.
+disponível em telas menores com responsividade.
 
  <p align="center">
 • <a href="https://github.com/brenordev/NFT_landing_page">💻 Repositório</a>
