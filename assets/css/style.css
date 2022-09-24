@@ -69,6 +69,15 @@ section{
     height: 100%;
     font-size: .7rem;
     opacity: .7;
+    transition: all .5s ease;
+}
+.input_search_nav:focus::placeholder{
+    opacity: .2;
+}
+/* Remove o "X" do input Search ao começar a digitar*/
+.input_search_nav::-webkit-search-cancel-button,
+.input_search_nav::-webkit-search-results-decoration { 
+    display: none; 
 }
 .icon_search{
     position: relative;
@@ -342,7 +351,7 @@ section{
 .box_nft_marketplace{
     width: 280px;
     border-radius: 5px;
-    padding: 30px 30px 15px 30px;
+    padding: 25px 25px 15px 25px;
     background-color: #30384D;
     transition: all .4s ease;
 }
@@ -367,7 +376,7 @@ section{
     color: #E5E5E5;
 }
 .name_nft{
-    font-size: 10px;
+    font-size: 14px;
 }
 .name_nft_marketplace span:nth-child(2){
     font-size: 12px;

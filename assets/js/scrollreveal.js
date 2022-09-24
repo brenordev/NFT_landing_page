@@ -1,4 +1,4 @@
 
 ScrollReveal().reveal('.headline')
 ScrollReveal().reveal('.tagline', { delay: 200 });
-ScrollReveal().reveal('.punchline', { delay: 100 });
+ScrollReveal().reveal('.punchline', { delay: 200 });

@@ -35,6 +35,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    text-align: center;
 }
 .title_creator_nft{
     background: linear-gradient(180deg, #B469D8 0%, rgba(180, 105, 216, 0) 100%);
@@ -92,6 +93,9 @@ section{
     align-items: center;
     gap: 10px;
 }
+.container_more .buttons_create_nft{
+    margin-bottom: 0 !important;
+}
 .btn_create, .btn_watch{
     width: 142px;
     height: 39px;
@@ -118,9 +122,10 @@ section{
 }
 .top_creators{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
     flex-wrap: wrap;
-    gap: 20px;
 }
 .creator{
     height: 63px;
@@ -318,6 +323,15 @@ section{
         max-width:550px;
         width: 100%;
     }
+    .container_creators{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .top_creators{
+        display: flex;
+    }
 }
 @media screen and (max-width: 768px){
     .container_footer{
@@ -339,7 +353,7 @@ section{
    }
    .creators{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
@@ -351,7 +365,11 @@ section{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0 5%;
+        max-width: 288px;
+        width: 100%;
+    }
+    .creator{
+        width: 100%;
     }
 }
 @media screen and (max-width: 425px){
