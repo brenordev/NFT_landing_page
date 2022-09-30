@@ -68,7 +68,14 @@ section{
     justify-content: center;
     align-items: center;
     gap: 15px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all .5s ease;
     
+}
+.tools_for_create_nft:hover{
+    border: 1px solid #545C71;
+    box-shadow: 0 0 25px rgba(0,0,0,.3);
 }
 .title_tools span{
     font-size: 15px;
@@ -93,6 +100,7 @@ section{
     align-items: center;
     gap: 10px;
 }
+
 .container_more .buttons_create_nft{
     margin-bottom: 0 !important;
 }
@@ -137,6 +145,7 @@ section{
     position: relative;
     border: 1px solid transparent;
     transition: all .5s ease;
+    cursor: pointer;
 
 }
 .creator:hover{
@@ -265,6 +274,10 @@ section{
     align-items: center;
     border-radius: 50%;
     border: 1px solid #7D7AD8;
+    transition: all .5s ease;
+}
+.link_social_midia:hover{
+    transform: translateY(-5px);
 }
 .copy_left span{
     color: #545C71;
@@ -297,6 +310,11 @@ section{
     font-size: 15px;
     font-style: normal;
     text-decoration: none;
+    transition: all .5s ease;
+
+}
+.link_column_footer:hover{
+    text-decoration: underline;
 }
 .copy_right{
     display: flex;
@@ -310,6 +328,10 @@ section{
     color: #545C71;
     font-weight: 500;
     font-size: 14px;
+    transition: all .5s ease;
+}
+.link_copy_right:hover{
+    text-decoration: underline;
 }
 @media screen and (max-width: 945px) {
     .create_nfts{
